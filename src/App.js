@@ -18,12 +18,12 @@ const reasons = [
   "You’re the plot twist I didn’t see coming.",
   "You make me want to be better for myself and for us.",
   "You’re dangerously easy to like.",
-  "I want my kids to have your smile one day.",
+  "I want our kids to have your smile one day,ngl i do want to have a Family with you .",
   "You can make me laugh even when I don’t want to.",
   "You make our chats feel like we’re sitting right next to each other.",
   "You’re confident without being arrogant.",
   "You remember small details I didn’t think you’d notice.",
-  "You bring calm to my stormy days.",
+  "O laitaq ao😭😭😭",
   "I love you!!"
 ];
 
@@ -150,7 +150,12 @@ export default function App() {
   return (
     <div style={styles.container}>
       <div style={styles.header}>
-        <div style={styles.supermanS}>S</div>
+       <img
+  src="https://upload.wikimedia.org/wikipedia/en/3/35/Supermanflying.png"
+  alt="Superman Logo"
+  style={{ width: 80, height: 80 }}
+/>
+
         <h1 style={{ marginLeft: 10, color: "#1e40af", fontSize: "1.3rem" }}>
           Reasons Why I Want to Do This Life Thing With You
         </h1>
@@ -220,14 +225,6 @@ const styles = {
     justifyContent: "center",
     marginBottom: 10,
     flexWrap: "wrap",
-  },
-  supermanS: {
-    fontWeight: "900",
-    fontSize: 40,
-    color: "#facc15", // Superman yellow
-    textShadow: "2px 2px 4px #b3003b", // red shadow
-    fontFamily: "'Impact', 'Arial Black', sans-serif",
-    userSelect: "none",
   },
   calendarGrid: {
     display: "grid",
